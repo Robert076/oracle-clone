@@ -12,7 +12,7 @@ body {
 }
 .navigation {
     background-color: rgb(59, 52, 46);
-    height: 45vh;
+    height: 45.5vh;
     width: 85%;
 }
 
@@ -109,15 +109,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    border: 1px solid red;
+    height: 300px;
 }
 
 .navigation .bottom-part img{
     width: 200px;
     object-fit: cover;
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 300px;
+    max-height: 300px;
     /*height: 200px; idk why this doesnt work and the 2 above work*/
-    border: 1px solid yellow;
+}
+
+.navigation .bottom-part .text-stuff {
+    width: 900px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.navigation .bottom-part .text-stuff p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navigation .bottom-part .text-stuff p:nth-child(2) {
+    margin-top: 15px;
+
+}
+
+.navigation .bottom-part .text-stuff .button {
+    background: white;
+    color: black;
+    margin-top: 25px;
+    padding: 13px;
+    font-size: 13px;
+    border-radius: 5px;
 }
