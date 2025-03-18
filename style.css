@@ -189,3 +189,38 @@ body {
     border-bottom: 4px solid rgb(100, 159, 82);
     height: 100%;
 }
+
+.downloads {
+    width: 85%;
+    background: #f2f2f2;
+    padding-left: 150px;
+    box-sizing: border-box;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.downloads p:nth-child(1) {
+    margin-bottom: 20px;
+    color: black !important; 
+    font-size: 20px;
+    font-weight: 400 !important;
+    margin-bottom: none !important;
+}
+
+.downloads p:nth-child(1):hover {
+    text-decoration: none !important;
+}
+
+.downloads p {
+    color: rgb(6, 104, 179);
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.downloads p:hover {
+    text-decoration: underline;
+}
