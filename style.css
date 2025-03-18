@@ -37,6 +37,7 @@ body {
 .navigation a {
     text-decoration: none;
     color: white;
+    font-weight: 300;
 }
 
 .navigation .logo-text{
@@ -223,4 +224,24 @@ body {
 
 .downloads p:hover {
     text-decoration: underline;
+}
+
+.downloads-tab {
+    width: 85%;
+    background-color: rgb(100, 104, 100);
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+
+.downloads-tab .button {
+    background: rgb(98, 141, 98);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 17px;
 }
