@@ -19,6 +19,7 @@ body {
 .logo-text-navbar {
     height: 150px;
     border: 1px solid red;
+
 }
 
 .navigation .top-part {
@@ -47,7 +48,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    width: 300px;
+    width: 350px;
 }
 
 .navigation .links a{
@@ -60,24 +61,26 @@ body {
 
 .navigation .misc .view-button-navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 5px;
     background: black;
     padding: 10px 5px;
-    font-size: 11px;
+    font-size: 13px;
     height: 25px;
+    width: 120px;
 }
 
 .navigation .misc .contact-button-navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px 5px;
-    font-size: 11px;
+    font-size: 13px;
     height: 25px;
+    width: 120px;
 }
 
 /* mid part */
@@ -135,7 +138,7 @@ body {
 }
 
 .navigation .bottom-part .text-stuff p:nth-child(1) {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
 }
 
@@ -151,4 +154,10 @@ body {
     padding: 13px;
     font-size: 13px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s all ease-in;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.navigation .bottom-part .text-stuff .button:hover{
+    background-color: #eaeaea;
 }
