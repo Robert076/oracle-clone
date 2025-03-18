@@ -79,3 +79,26 @@ body {
     font-size: 11px;
     height: 25px;
 }
+
+/* mid part */
+
+.navigation .mid-part {
+    margin-top: 15px;   
+    color: white;
+    background: rgb(22, 22, 22);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 75px;
+}
+
+.navigation .mid-part p:nth-child(1) {
+    font-weight: 300;
+}
+
+.navigation .mid-part p:nth-child(2) {
+    font-weight: 500;
+}
