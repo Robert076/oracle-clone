@@ -102,3 +102,22 @@ body {
 .navigation .mid-part p:nth-child(2) {
     font-weight: 500;
 }
+
+/* bottom part */
+
+.navigation .bottom-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.navigation .bottom-part img{
+    width: 200px;
+    object-fit: cover;
+    min-height: 200px;
+    max-height: 200px;
+    /*height: 200px; idk why this doesnt work and the 2 above work*/
+    border: 1px solid yellow;
+}
